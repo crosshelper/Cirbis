@@ -1,1 +1,54 @@
-/* miniprogram/pages/home/index.wxss */
+page{
+  background: #fff;
+}
+.scroll_box{
+width: 100%;
+height: 180rpx;
+overflow: hidden;
+background: #fff;
+white-space: nowrap;
+margin-top: 10px;
+}
+.recom_scroll_box{
+width: 100%;
+height: 210rpx;
+overflow: hidden;
+background: #fff;
+white-space: nowrap;
+}
+.scroll_box scroll-view{
+  height: 100%;
+  width: auto;
+  overflow:hidden;
+}
+.item_list{
+height: 110px;
+margin-right: 23rpx;
+display: inline-block;
+margin-left: 10px;
+}
+.search_bar{
+  text-align: center;
+  background-color: #EBEDF5;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  flex-direction:row;
+  margin-top: 8px;
+  color: #3C3C3C;
+}
+.top_word{
+  color: #3C3C3C;
+  text-align: center
+}
+.search_title{
+  margin-left: 5px;
+}
+.recom_title{
+  margin-left: 15px;
+  font-size: 20px;
+  margin-top: 10px;
+  color: #3C3C3C;
+}

@@ -1,4 +1,259 @@
-<van-cell-group>
-  <van-cell title="单元格" value="内容123" />
-  <van-cell title="单元格" value="内容" label="描述信息" border="{{ false }}" />
-</van-cell-group>
+<view>
+<!-->搜索<-->
+<van-row>
+  <van-col span="22" offset="1">
+    <view class="search_bar"><van-icon name="search" size="20px"/><span class="search_title">点击搜索更多</span></view>
+  </van-col>
+</van-row>
+
+<!-->快捷标签<-->
+<view class="scroll_box"> 
+    <scroll-view scroll-x>
+      <view class="item_list" >
+        <image 
+        src="cloud://cirbis-db.6369-cirbis-db-1301779952/dailyLift.png"
+        style="width: 65px; height: 65px;"
+        />
+        <view class="top_word">日常生活</view>
+      </view>
+      <view class="item_list" >
+        <image 
+        src="cloud://cirbis-db.6369-cirbis-db-1301779952/Language.png"
+        style="width: 65px; height: 65px;"
+        />
+        <view class="top_word">语言翻译</view>
+      </view>
+      <view class="item_list" >
+        <image 
+        src="cloud://cirbis-db.6369-cirbis-db-1301779952/health.png"
+        style="width: 65px; height: 65px;"
+        />
+        <view class="top_word">健康</view>
+      </view>
+      <view class="item_list" >
+        <image 
+        src="cloud://cirbis-db.6369-cirbis-db-1301779952/dailyLift.png"
+        style="width: 65px; height: 65px;"
+        />
+        <view class="top_word">日常生活</view>
+      </view>
+      <view class="item_list" >
+        <image 
+        src="cloud://cirbis-db.6369-cirbis-db-1301779952/dailyLift.png"
+        style="width: 65px; height: 65px;"
+        />
+        <view class="top_word">日常生活</view>
+      </view>
+    </scroll-view>
+</view>
+<!-->推荐内容<-->
+<view class="recom_title">你是留学生吗？</view>
+<view class="recom_scroll_box">
+    <scroll-view scroll-x>
+      <view class="item_list" >
+        <image 
+        src="cloud://cirbis-db.6369-cirbis-db-1301779952/recom002.png"
+        style="width: 160px; height: 85px;"
+        />
+        <view class="top_word">论文</view>
+      </view>
+      <view class="item_list" >
+        <image 
+        src="cloud://cirbis-db.6369-cirbis-db-1301779952/recom005.png"
+        style="width: 160px; height: 85px;"
+        />
+        <view class="top_word">医疗</view>
+      </view>
+        <view class="item_list" >
+        <image 
+        src="cloud://cirbis-db.6369-cirbis-db-1301779952/recom001.png"
+        style="width: 160px; height: 85px;"
+        />
+        <view class="top_word">修车</view>
+      </view>
+        <view class="item_list" >
+        <image 
+        src="cloud://cirbis-db.6369-cirbis-db-1301779952/recom002.png"
+        style="width: 160px; height: 85px;"
+        />
+        <view class="top_word">修车</view>
+      </view>
+        <view class="item_list" >
+        <image 
+        src="cloud://cirbis-db.6369-cirbis-db-1301779952/recom002.png"
+        style="width: 160px; height: 85px;"
+        />
+        <view class="top_word">修车</view>
+      </view>
+    </scroll-view>
+</view>
+<!-->推荐内容<-->
+  <view class="recom_title">旅行中需要的帮助</view>
+  <view class="recom_scroll_box">
+    <scroll-view scroll-x>
+      <view class="item_list" >
+        <image 
+        src="cloud://cirbis-db.6369-cirbis-db-1301779952/recom001.png"
+        style="width: 160px; height: 85px;"
+        />
+        <view class="top_word">修车</view>
+      </view>
+      <view class="item_list" >
+        <image 
+        src="cloud://cirbis-db.6369-cirbis-db-1301779952/recom003.png"
+        style="width: 160px; height: 85px;"
+        />
+        <view class="top_word">紧急</view>
+      </view>
+        <view class="item_list" >
+        <image 
+        src="cloud://cirbis-db.6369-cirbis-db-1301779952/recom002.png"
+        style="width: 160px; height: 85px;"
+        />
+        <view class="top_word">修车</view>
+      </view>
+        <view class="item_list" >
+        <image 
+        src="cloud://cirbis-db.6369-cirbis-db-1301779952/recom002.png"
+        style="width: 160px; height: 85px;"
+        />
+        <view class="top_word">修车</view>
+      </view>
+        <view class="item_list" >
+        <image 
+        src="cloud://cirbis-db.6369-cirbis-db-1301779952/recom002.png"
+        style="width: 160px; height: 85px;"
+        />
+        <view class="top_word">修车</view>
+      </view>
+    </scroll-view>
+  </view>
+
+
+  <!-->推荐内容<-->
+  <view class="recom_title">旅行中需要的帮助</view>
+  <view class="recom_scroll_box">
+    <scroll-view scroll-x>
+      <view class="item_list" >
+        <image 
+        src="cloud://cirbis-db.6369-cirbis-db-1301779952/recom001.png"
+        style="width: 160px; height: 85px;"
+        />
+        <view class="top_word">修车</view>
+      </view>
+      <view class="item_list" >
+        <image 
+        src="cloud://cirbis-db.6369-cirbis-db-1301779952/recom003.png"
+        style="width: 160px; height: 85px;"
+        />
+        <view class="top_word">紧急</view>
+      </view>
+        <view class="item_list" >
+        <image 
+        src="cloud://cirbis-db.6369-cirbis-db-1301779952/recom002.png"
+        style="width: 160px; height: 85px;"
+        />
+        <view class="top_word">修车</view>
+      </view>
+        <view class="item_list" >
+        <image 
+        src="cloud://cirbis-db.6369-cirbis-db-1301779952/recom002.png"
+        style="width: 160px; height: 85px;"
+        />
+        <view class="top_word">修车</view>
+      </view>
+        <view class="item_list" >
+        <image 
+        src="cloud://cirbis-db.6369-cirbis-db-1301779952/recom002.png"
+        style="width: 160px; height: 85px;"
+        />
+        <view class="top_word">修车</view>
+      </view>
+    </scroll-view>
+  </view>
+
+  <!-->推荐内容<-->
+  <view class="recom_title">旅行中需要的帮助</view>
+  <view class="recom_scroll_box">
+    <scroll-view scroll-x>
+      <view class="item_list" >
+        <image 
+        src="cloud://cirbis-db.6369-cirbis-db-1301779952/recom001.png"
+        style="width: 160px; height: 85px;"
+        />
+        <view class="top_word">修车</view>
+      </view>
+      <view class="item_list" >
+        <image 
+        src="cloud://cirbis-db.6369-cirbis-db-1301779952/recom003.png"
+        style="width: 160px; height: 85px;"
+        />
+        <view class="top_word">紧急</view>
+      </view>
+        <view class="item_list" >
+        <image 
+        src="cloud://cirbis-db.6369-cirbis-db-1301779952/recom002.png"
+        style="width: 160px; height: 85px;"
+        />
+        <view class="top_word">修车</view>
+      </view>
+        <view class="item_list" >
+        <image 
+        src="cloud://cirbis-db.6369-cirbis-db-1301779952/recom002.png"
+        style="width: 160px; height: 85px;"
+        />
+        <view class="top_word">修车</view>
+      </view>
+        <view class="item_list" >
+        <image 
+        src="cloud://cirbis-db.6369-cirbis-db-1301779952/recom002.png"
+        style="width: 160px; height: 85px;"
+        />
+        <view class="top_word">修车</view>
+      </view>
+    </scroll-view>
+  </view>
+
+  <!-->推荐内容<-->
+  <view class="recom_title">旅行中需要的帮助</view>
+  <view class="recom_scroll_box">
+    <scroll-view scroll-x>
+      <view class="item_list" >
+        <image 
+        src="cloud://cirbis-db.6369-cirbis-db-1301779952/recom001.png"
+        style="width: 160px; height: 85px;"
+        />
+        <view class="top_word">修车</view>
+      </view>
+      <view class="item_list" >
+        <image 
+        src="cloud://cirbis-db.6369-cirbis-db-1301779952/recom003.png"
+        style="width: 160px; height: 85px;"
+        />
+        <view class="top_word">紧急</view>
+      </view>
+        <view class="item_list" >
+        <image 
+        src="cloud://cirbis-db.6369-cirbis-db-1301779952/recom002.png"
+        style="width: 160px; height: 85px;"
+        />
+        <view class="top_word">修车</view>
+      </view>
+        <view class="item_list" >
+        <image 
+        src="cloud://cirbis-db.6369-cirbis-db-1301779952/recom002.png"
+        style="width: 160px; height: 85px;"
+        />
+        <view class="top_word">修车</view>
+      </view>
+        <view class="item_list" >
+        <image 
+        src="cloud://cirbis-db.6369-cirbis-db-1301779952/recom002.png"
+        style="width: 160px; height: 85px;"
+        />
+        <view class="top_word">修车</view>
+      </view>
+    </scroll-view>
+  </view>
+</view>
+
