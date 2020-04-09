@@ -9,7 +9,7 @@
 <!-->快捷标签<-->
 <view class="scroll_box"> 
     <scroll-view scroll-x>
-      <view class="item_list" >
+      <view class="item_list" bindtap="select_tag_btn">
         <image 
         src="cloud://cirbis-db.6369-cirbis-db-1301779952/dailyLift.png"
         style="width: 65px; height: 65px;"

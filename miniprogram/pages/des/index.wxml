@@ -1,0 +1,28 @@
+<van-cell-group title="详细信息" size="large">
+  <van-cell title="需求类型" is-link value="日常生活" size="large"/>
+  <van-cell title="当前位置" is-link value="洛杉矶" size="large"/>
+  <van-cell title="是否紧急" is-link value="紧急" size="large"/>
+</van-cell-group>
+
+<van-cell-group title="描述需求" size="large">
+  <van-field
+    value="{{ message }}"
+    label="描述"
+    type="textarea"
+    placeholder="请描述你的需求"
+    border="{{ false }}"
+    size="large"
+    clearable
+  />
+</van-cell-group>
+
+    <van-row>
+    <van-col span="20" offset="2">
+      <view class="next_btn" bindtap="match_btn">
+        <view class="next_title">
+          <span>查询</span>
+        </view>
+      </view>
+    </van-col>
+  </van-row>
+

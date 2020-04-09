@@ -1,0 +1,13 @@
+.next_btn{
+  background-color:rgba(255,255,255,0.95);
+  height: 42px;
+  margin-top: 25px;
+  border-radius: 5px;
+  border: 1px #FF5D5D solid;
+}
+.next_title{
+  font-size: 16px;
+  text-align: center;
+  padding-top: 11px;
+  color: #FF5D5D;
+}

@@ -1,4 +1,4 @@
-// miniprogram/pages/home/index.js
+// miniprogram/pages/result/index.js
 Page({
 
   /**
@@ -8,11 +8,6 @@ Page({
 
   },
 
-  select_tag_btn(){
-    wx.navigateTo({
-      url: '../des/index',
-    })
-  },
   /**
    * 生命周期函数--监听页面加载
    */

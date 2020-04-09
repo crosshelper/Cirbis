@@ -1,4 +1,4 @@
-// miniprogram/pages/home/index.js
+// miniprogram/pages/des/index.js
 Page({
 
   /**
@@ -8,9 +8,9 @@ Page({
 
   },
 
-  select_tag_btn(){
+  match_btn(){
     wx.navigateTo({
-      url: '../des/index',
+      url: '../result/index',
     })
   },
   /**

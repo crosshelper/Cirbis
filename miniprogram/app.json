@@ -3,13 +3,15 @@
     "pages/home/index",
     "pages/collection/index",
     "pages/history/index",
-    "pages/me/index"
+    "pages/me/index",
+    "pages/des/index",
+    "pages/result/index"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTitleText": "Cirbis",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {

@@ -1,0 +1,89 @@
+<view class="topBar">搜索完成, 一共找到2个帮手</view>
+<view class="containers">
+    <van-row>
+      <van-col span="5" data-id="{{aOpenId}}" bindtap="autProfile_btn">
+        <van-image
+          round
+          style="margin-left:5px; "
+          fit="cover"
+          width="3.8rem"
+          height="3.8rem"
+          src="cloud://cirbis-db.6369-cirbis-db-1301779952/self.jpg"/>
+      </van-col>
+      <van-col span="16" class="textName" data-id="{{aOpenId}}" bindtap="autProfile_btn">
+        <view class="name">陈嶓</view>
+        <view class="tags">
+          <van-tag type="danger" size="medium" plain class="tags" >标签</van-tag>
+          <van-tag type="primary" size="medium" plain class="tags" >标签</van-tag>
+          <van-tag type="success" size="medium" plain class="tags" >标签</van-tag>
+        </view>
+      </van-col>
+      <van-col span="3">
+          <span class="location">洛杉矶</span>
+      </van-col>
+    </van-row>
+    <van-row>
+      <van-col span="18">
+        <span class="review">评分</span>
+        <van-rate
+          value="4.5"
+          size="{{ 20 }}"
+          allow-half
+          class="rate"
+          void-color="#eee"
+          void-icon="star"
+        />
+        <span class="point">2.5</span>
+      </van-col>
+      <van-col span="6" class="mile">
+        距离10公里远
+      </van-col>
+    </van-row>
+  <van-divider />
+</view>
+
+
+
+
+<view class="containers">
+    <van-row>
+      <van-col span="5" data-id="{{aOpenId}}" bindtap="autProfile_btn">
+        <van-image
+          round
+          style="margin-left:5px; "
+          fit="cover"
+          width="3.8rem"
+          height="3.8rem"
+          src="cloud://cirbis-db.6369-cirbis-db-1301779952/self.jpg"/>
+      </van-col>
+      <van-col span="16" class="textName" data-id="{{aOpenId}}" bindtap="autProfile_btn">
+        <view class="name">陈嶓</view>
+        <view class="tags">
+          <van-tag type="danger" size="medium" plain class="tags" >标签</van-tag>
+          <van-tag type="primary" size="medium" plain class="tags" >标签</van-tag>
+          <van-tag type="success" size="medium" plain class="tags" >标签</van-tag>
+        </view>
+      </van-col>
+      <van-col span="3">
+          <span class="location">洛杉矶</span>
+      </van-col>
+    </van-row>
+    <van-row>
+      <van-col span="18">
+        <span class="review">评分</span>
+        <van-rate
+          value="4.5"
+          size="{{ 20 }}"
+          allow-half
+          class="rate"
+          void-color="#eee"
+          void-icon="star"
+        />
+        <span class="point">2.5</span>
+      </van-col>
+      <van-col span="6" class="mile">
+        距离10公里远
+      </van-col>
+    </van-row>
+  <van-divider />
+</view>
