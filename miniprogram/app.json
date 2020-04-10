@@ -5,7 +5,8 @@
     "pages/history/index",
     "pages/me/index",
     "pages/des/index",
-    "pages/result/index"
+    "pages/result/index",
+    "pages/helper-profile/index"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

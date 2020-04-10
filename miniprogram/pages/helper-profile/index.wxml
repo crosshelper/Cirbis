@@ -1,0 +1,132 @@
+<view class="containers" bindtap="select_helper_btn">
+    <van-row>
+      <van-col span="5" data-id="{{aOpenId}}" bindtap="autProfile_btn">
+        <van-image
+          round
+          style="margin-left:5px; "
+          fit="cover"
+          width="3.8rem"
+          height="3.8rem"
+          src="cloud://cirbis-db.6369-cirbis-db-1301779952/self.jpg"/>
+      </van-col>
+      <van-col span="12" class="textName" data-id="{{aOpenId}}" bindtap="autProfile_btn">
+        <view class="name">陈嶓</view>
+      </van-col>
+      <van-col span="7" class="location">
+          <span class="location">洛杉矶</span>
+      </van-col>
+    </van-row>
+    <van-row>
+      <van-col span="18">
+        <span class="review">评分</span>
+        <van-rate
+          value="4.5"
+          size="{{ 20 }}"
+          allow-half
+          class="rate"
+          void-color="#eee"
+          void-icon="star"
+        />
+        <span class="point">4.5</span>
+      </van-col>
+      <van-col span="6" class="mile">
+        距离10公里远
+      </van-col>
+    </van-row>
+</view>
+  <van-divider />
+<view class="skill_section">
+<view class="tag_title">我的技能</view>
+  <view class="tags">
+    <van-tag type="danger" size="medium" plain class="tags" >接机</van-tag>
+    <van-tag type="primary" size="medium" plain class="tags" >修马桶</van-tag>
+    <van-tag type="success" size="medium" plain class="tags" >日常生活</van-tag>
+  </view>
+</view>
+<van-divider />
+
+<view class="bio_section">
+<view class="bio_title">个人陈述</view>
+  <view class="bio">大家好我叫陈嶓，专业修马桶，修了20年。价格实惠，坏一送百。大家好我叫陈嶓，专业修马桶，修了20年。价格实惠，坏一送百。大家好我叫陈嶓，专业修马桶，修了20年。价格实惠，坏一送百。
+  </view>
+</view>
+<van-divider />
+
+<view class="button_section">
+  <van-row class="button_container">
+     <van-col span="11">
+      <view class="payment_button">预订付款</view>
+    </van-col>
+    <van-col span="11" offset="2">
+      <view class="call_button">拨打电话</view>
+    </van-col>
+  </van-row>
+</view>
+<van-divider />
+
+<view class="review_section">
+  <van-row>
+    <van-col span="15">
+      <span class="review_title">评论与评分</span>
+    </van-col>
+    <van-col span="9" class="review_write_btn">
+      <span class="review_write_btn">编写我的评论</span>
+    </van-col>
+  </van-row>
+
+  <view class="reviews">
+  <van-row>
+    <van-row>
+      <van-col span="10">
+        <span>陈嶓</span>
+      </van-col>
+      <van-col span="14" class="cus_review">
+        <view>
+          <span>评分</span>
+          <van-rate
+            value="4.5"
+            size="{{ 20 }}"
+            allow-half
+            class="rate"
+            void-color="#eee"
+            void-icon="star"
+          />
+          <span class="point">4.5</span>
+        </view>
+      </van-col>
+    </van-row>
+    <van-row>
+      <view class="review_detail">陈嶓很帅很厉害，用法术修马桶一下子就修好了。
+      </view>
+    </van-row>
+  </van-row>
+<van-divider hairline dashed/>
+  <van-row>
+    <van-row>
+      <van-col span="10">
+        <span>陈嶓</span>
+      </van-col>
+      <van-col span="14" class="cus_review">
+        <view>
+          <span>评分</span>
+          <van-rate
+            value="4.5"
+            size="{{ 20 }}"
+            allow-half
+            class="rate"
+            void-color="#eee"
+            void-icon="star"
+          />
+          <span class="point">4.5</span>
+        </view>
+      </van-col>
+    </van-row>
+    <van-row>
+      <view class="review_detail">陈嶓很帅很厉害，用法术修马桶一下子就修好了。
+      </view>
+    </van-row>
+  </van-row>
+</view>
+
+<van-divider contentPosition="center">没有更多了</van-divider>
+</view>

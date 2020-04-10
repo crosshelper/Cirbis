@@ -1,4 +1,4 @@
-// miniprogram/pages/result/index.js
+// miniprogram/pages/helper-profile/index.js
 Page({
 
   /**
@@ -8,11 +8,6 @@ Page({
 
   },
 
-  select_helper_btn(){
-    wx.navigateTo({
-      url: '../helper-profile/index',
-    })
-  },
   /**
    * 生命周期函数--监听页面加载
    */
