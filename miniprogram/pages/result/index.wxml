@@ -22,8 +22,9 @@
           <span class="location">洛杉矶</span>
       </van-col>
     </van-row>
+    <view class="review_point"></view>
     <van-row>
-      <van-col span="18">
+      <van-col span="19">
         <span class="review">评分</span>
         <van-rate
           value="4.5"
@@ -35,7 +36,7 @@
         />
         <span class="point">2.5</span>
       </van-col>
-      <van-col span="6" class="mile">
+      <van-col span="5" class="mile">
         距离10公里远
       </van-col>
     </van-row>
@@ -68,8 +69,9 @@
           <span class="location">洛杉矶</span>
       </van-col>
     </van-row>
+    <view class="review_point"></view>
     <van-row>
-      <van-col span="18">
+      <van-col span="19">
         <span class="review">评分</span>
         <van-rate
           value="4.5"
@@ -81,7 +83,7 @@
         />
         <span class="point">2.5</span>
       </van-col>
-      <van-col span="6" class="mile">
+      <van-col span="5" class="mile">
         距离10公里远
       </van-col>
     </van-row>

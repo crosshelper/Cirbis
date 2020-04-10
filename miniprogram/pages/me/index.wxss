@@ -1,1 +1,30 @@
-/* miniprogram/pages/me/index.wxss */
+.name{
+  font-family: Helvetica Neue;
+  font-weight:300;
+  color: #A0A0A0;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.topSpace{
+  margin-top: 20px;
+}
+.edit-btn{
+  height: 60rpx;
+  width: 100%;
+  margin-left: 5px;
+  background: #FFFFFF;
+  border-color: #97989A;
+  border: 1px solid;
+  color: #707070;
+  font-size: 26rpx;
+  font-family: Helvetica Neue;
+  margin-top:15px;
+  font-weight:300;
+}
+.SaveStyle{
+  text-align: center;
+}
+.sign_out_title{
+  color: red
+}

@@ -21,15 +21,24 @@ page{
   font-size: 15px;
 }
 .rate{
-  margin-left: 5px;
-  padding-top: 100px;
+  margin-left: 35px;
+  margin-top: -22px;
   font-size: 13px;
-  color: #3c3c3c
+  color: #3c3c3c;
+  display: flex;
 } 
+.reviews_rate{
+  font-size: 13px;
+  color: #3c3c3c;
+  text-align: right;
+  justify-content: right;
+}
 .point{
-  margin-left: 5px;
+  margin-left: 160px;
+  margin-top: -18px;
   font-size: 14px;
-  color: #3c3c3c
+  color: #3c3c3c;
+  display: flex;
 }
 .review{
   margin-left: 5px;
@@ -69,6 +78,7 @@ page{
 .button_section{
   margin-left: 10px;
   margin-right: 10px;
+  margin-top: 20px;
 }
 .button_container{
   justify-content: center;
@@ -104,13 +114,20 @@ page{
 }
 .review_write_btn{
   color: #428AFC;
+  margin-left: 10px;
   text-decoration: underline;
-  justify-content: right;
-  text-align: right;
+  border-radius: 3px;
 }
+
+.edit_review{
+  color: #428AFC;
+  text-decoration: underline;
+}
+
 .reviews{
   margin-top: 15px;
   color: #3C3C3C;
+  width: 20px;
 }
 .cus_review{
   justify-content: right;
@@ -120,4 +137,14 @@ page{
 }
 .review_detail{
   margin-top: 6px;
+  color: #3c3c3c
+}
+.review_name{
+  font-size: 18px;
+  color: #3c3c3c
+}
+.review_info{
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
 }

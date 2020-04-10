@@ -1,2 +1,34 @@
-<!--miniprogram/pages/me/index.wxml-->
-<text>miniprogram/pages/me/index.wxml</text>
+<view>
+  <van-row>
+    <view class="topSpace"></view>
+      <van-col span="4" offset="10">
+        <view bindtap="uploadImage">
+          <van-image
+            round
+            fit="cover"
+            width="4rem"
+            height="4rem"
+            class="autImage"
+            src="cloud://cirbis-db.6369-cirbis-db-1301779952/self.jpg"
+          />
+          <view class="name">
+            <text class="name">更换头像</text>
+          </view>
+        </view>
+      </van-col>
+  </van-row>
+  <van-cell-group title="基础信息">
+    <van-cell title="姓名" is-link value="陈嶓" bindtap="name_btn"/>
+    <van-cell title="联系电话" is-link value="15715158008" bindtap="sex_btn"/>
+    <van-cell title="城市" is-link value="南京" bindtap="city_btn"/>
+  </van-cell-group>
+  <van-cell-group title="帮手信息">
+    <van-cell title="切换帮手页面" is-link value="注册成为帮手" bindtap="postion_btn"/>
+  </van-cell-group>
+    <van-cell-group title="更多">
+    <van-cell title="隐私与协议" is-link bindtap="postion_btn"/>
+    <van-cell title="反馈" is-link bindtap="postion_btn"/>
+    <van-cell title="关于我们" is-link bindtap="postion_btn"/>
+    <van-cell title="登出" is-link title-class="sign_out_title" bindtap="contact_btn"/>
+  </van-cell-group>
+</view>

@@ -1,0 +1,24 @@
+<view class="review_title">
+  <span>给</span>
+  <span>陈嶓</span>
+  <span>的评论</span>
+</view>
+<view>
+  <span class="review">评分</span>
+  <van-rate
+    value="4.5"
+    size="{{ 20 }}"
+    allow-half
+    class="rate"
+    void-color="#eee"
+    void-icon="star"
+    />
+  <span class="point">2.5</span>
+</view>
+
+<view class="text">
+  <textarea bindblur="bindTextAreaBlur" placeholder="请输入评论" class="textarea"/>
+</view>
+
+<van-button color="#ff4e18" class="sub_btn" block bind:click="sub_review_btn">发布评论</van-button>
+

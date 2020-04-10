@@ -1,4 +1,4 @@
-// miniprogram/pages/helper-profile/index.js
+// miniprogram/pages/review-writing/index.js
 Page({
 
   /**
@@ -8,19 +8,14 @@ Page({
 
   },
 
-  review_write_btn(){
-    console.log(2)
-    wx.navigateTo({
-      url: '../review-writing/index',
+  sub_review_btn(){
+    wx.navigateBack({
+      delta: 1
+    })
+    wx.showToast({
+      title: '发布成功',
     })
   },
-
-  call_btn(){
-    wx.makePhoneCall({
-      phoneNumber: "10086"
-    })
-  },
-
   /**
    * 生命周期函数--监听页面加载
    */

@@ -1,1 +1,53 @@
-/* miniprogram/pages/collection/index.wxss */
+page{
+  background: #fff
+}
+.containers{
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 3px;
+  background: #fff
+}
+.review{
+  margin-left: 10px;
+  font-size: 15px;
+  color: #3c3c3c;
+}
+.rate{
+  margin-left: 45px;
+  font-size: 14px;
+  margin-top: -23px;
+  color: #3c3c3c;
+  display: flex
+} 
+.point{
+  margin-left: 170px;
+  font-size: 15px;
+  margin-top: -18px;
+  color: #3c3c3c;
+  display: flex
+}
+.review_point{
+  margin-top: 10px;
+}
+.mile{
+  font-size: 12px;
+  text-align: right;
+  color: #3c3c3c;
+  margin-top: 20px;
+}
+.location{
+  text-align: right;
+  color: #3c3c3c;
+  font-size: 16px;
+}
+.name{
+  color: #3c3c3c
+}
+.tags{
+  margin-right: 6px;
+  margin-top: 6px;
+}
+.topBar{
+  margin-bottom: 15px;
+  color: #3c3c3c;
+}
