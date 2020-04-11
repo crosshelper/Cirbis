@@ -1,0 +1,9 @@
+<van-index-bar
+  scroll-top="123"
+  index-list="123"
+>
+  <view>
+    <van-cell title="修车" bindtap="gender_btn"></van-cell>
+    <van-cell title="修水管" bindtap="gender_btn"></van-cell>
+  </view>
+</van-index-bar>

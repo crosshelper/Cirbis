@@ -7,7 +7,10 @@
     "pages/des/index",
     "pages/result/index",
     "pages/helper-profile/index",
-    "pages/review-writing/index"
+    "pages/review-writing/index",
+    "pages/user-edits/emergency/index",
+    "pages/user-edits/location/index",
+    "pages/user-edits/problem-type/index"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

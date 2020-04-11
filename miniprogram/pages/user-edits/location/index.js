@@ -1,4 +1,4 @@
-// miniprogram/pages/des/index.js
+// miniprogram/pages/user-edits/location/index.js
 Page({
 
   /**
@@ -8,30 +8,6 @@ Page({
 
   },
 
-  match_btn(){
-    wx.navigateTo({
-      url: '../result/index',
-    })
-  },
-
-  select_problem_btn() {
-    wx.navigateTo({
-      url: '../user-edits/problem-type/index',
-    })
-  },
-
-  select_location_btn() {
-    wx.navigateTo({
-      url: '../user-edits/location/index',
-    })
-  },
-
-  select_emergency_btn() {
-    wx.navigateTo({
-      url: '../user-edits/emergency/index',
-    })
-  },
-  
   /**
    * 生命周期函数--监听页面加载
    */

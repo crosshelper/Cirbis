@@ -58,8 +58,8 @@
 				},
 				{
 					"id": 1,
-					"name": "pages/me/index",
-					"pathName": "pages/me/index",
+					"name": "pages/des/index",
+					"pathName": "pages/des/index",
 					"query": "",
 					"scene": null
 				}

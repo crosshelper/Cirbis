@@ -1,7 +1,7 @@
 <van-cell-group title="详细信息" size="large">
-  <van-cell title="需求类型" is-link value="日常生活" size="large"/>
-  <van-cell title="当前位置" is-link value="洛杉矶" size="large"/>
-  <van-cell title="是否紧急" is-link value="紧急" size="large"/>
+  <van-cell title="需求类型" is-link value="日常生活" size="large" bindtap="select_problem_btn"/>
+  <van-cell title="当前位置" is-link value="洛杉矶" size="large" bindtap="select_location_btn"/>
+  <van-cell title="是否紧急" is-link value="紧急" size="large" bindtap="select_emergency_btn"/>
 </van-cell-group>
 
 <van-cell-group title="描述需求" size="large">
