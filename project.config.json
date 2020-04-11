@@ -58,8 +58,8 @@
 				},
 				{
 					"id": 1,
-					"name": "pages/user-edits/about-us/index",
-					"pathName": "pages/user-edits/about-us/index",
+					"name": "pages/helper/helper-signup/index",
+					"pathName": "pages/helper/helper-signup/index",
 					"query": "",
 					"scene": null
 				}

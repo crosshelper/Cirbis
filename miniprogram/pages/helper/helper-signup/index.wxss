@@ -1,1 +1,27 @@
 /* miniprogram/pages/helper/helper-signup/index.wxss */
+page{
+  background-color: #fff
+}
+.signup_container{
+  display:flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.logo{
+  width: 120px;
+  height: 50px;
+}
+.images{
+  width: 2800px;
+}
+.signup_title{
+  margin-top: 35px;
+  text-align: center;
+  color: #3c3c3c;
+  font-size: 18px;
+}
+.signup_helper_btn{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}

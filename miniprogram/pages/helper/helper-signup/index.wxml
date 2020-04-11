@@ -1,2 +1,10 @@
-<!--miniprogram/pages/helper/helper-signup/index.wxml-->
-<text>miniprogram/pages/helper/helper-signup/index.wxml</text>
+<view class="signup_container">
+  <image src="cloud://cirbis-db.6369-cirbis-db-1301779952/CycbisLogoH.png" class='logo'/>
+</view>
+<view class="signup_container">
+  <image src="cloud://cirbis-db.6369-cirbis-db-1301779952/helperlaunch.png" mode='widthFix' class='images'/>
+</view>
+<view class="signup_title">每个月赚$4000美金以上</view>
+<view class="signup_helper_btn">
+  <van-button color="linear-gradient(to right, #FF185F, #ff4e18)" block bindtap="signup_helper_btn">注册成为帮手</van-button>
+</view>
