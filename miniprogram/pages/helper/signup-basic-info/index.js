@@ -1,18 +1,30 @@
-// miniprogram/pages/helper/helper-signup/index.js
+// miniprogram/pages/helper/signup-basic-info/index.js
+const locations = require('../../../utils/locations.js');
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    show: false,
+    selectAddress: {},
+    locationPlaceholder: "请选择地址",
+    areaList: {}
   },
 
-  signup_helper_btn(){
+  select_location_btn(){
     wx.navigateTo({
-      url: '../signup-basic-info/index',
+      url: '../../user-edits/location/index',
     })
   },
+
+  next_btn(){
+    wx.navigateTo({
+      url: '../signup-bio-skill/index',
+    })
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */

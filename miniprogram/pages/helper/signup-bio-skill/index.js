@@ -1,4 +1,4 @@
-// miniprogram/pages/helper/helper-signup/index.js
+// miniprogram/pages/helper/signup-bio-skill/index.js
 Page({
 
   /**
@@ -8,11 +8,6 @@ Page({
 
   },
 
-  signup_helper_btn(){
-    wx.navigateTo({
-      url: '../signup-basic-info/index',
-    })
-  },
   /**
    * 生命周期函数--监听页面加载
    */

@@ -1,0 +1,6 @@
+/* miniprogram/pages/helper/signup-basic-info/index.wxss */
+.next_btn{
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}

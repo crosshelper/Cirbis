@@ -1,0 +1,52 @@
+.bio_title{
+  margin-left: 12px;
+  font-size: 14px;
+  color: #8E8F91;
+}
+.skill_title{
+  margin-left: 12px;
+  font-size: 14px;
+  color: #8E8F91;
+}
+.textarea{
+  height: 120px;
+  background: #fff;
+  border: 1px #F5F6FA solid;
+  width: 100%;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 5px;
+}
+.text{
+  margin-top: 3px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.skill_tags{
+  margin-top: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.tags{
+  margin-right: 5px;
+}
+.delete-btn{
+  background-color:rgba(255,255,255,0.95);
+  height: 35px;
+  border: 0.5px #8E8F91 dashed;
+  margin-top: 10px;
+  border-radius: 3px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.delete-title{
+  font-size: 14px;
+  margin-top: 8px;
+  text-align: center;
+  color: #8E8F91;
+}
+.sub_btn{
+  margin-top: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}

@@ -58,8 +58,8 @@
 				},
 				{
 					"id": 1,
-					"name": "pages/helper/helper-signup/index",
-					"pathName": "pages/helper/helper-signup/index",
+					"name": "pages/helper/signup-bio-skill/index",
+					"pathName": "pages/helper/signup-bio-skill/index",
 					"query": "",
 					"scene": null
 				}
