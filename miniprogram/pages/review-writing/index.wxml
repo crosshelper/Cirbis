@@ -20,5 +20,4 @@
   <textarea bindblur="bindTextAreaBlur" placeholder="请输入评论" class="textarea"/>
 </view>
 
-<van-button color="#ff4e18" class="sub_btn" block bind:click="sub_review_btn">发布评论</van-button>
-
+<van-button color="linear-gradient(to right, #FF185F, #ff4e18)" class="sub_btn" block bind:click="sub_review_btn">发布评论</van-button>

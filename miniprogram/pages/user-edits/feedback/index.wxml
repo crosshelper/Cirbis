@@ -1,0 +1,22 @@
+<view class="review_title">
+  <span>给Cribis打个分吧</span>
+</view>
+<view  class="review_info">
+  <span>您的宝贵意见是我们前进的动力，我们不定期都会向提供反馈意见的用户随机抽取赠送一些小礼物。</span>
+</view>
+  <span class="review">评分</span>
+  <van-rate
+    value="4.5"
+    size="{{ 20 }}"
+    allow-half
+    class="rate"
+    void-color="#eee"
+    void-icon="star"
+    />
+  <span class="point">2.5</span>
+
+<view class="text">
+  <textarea bindblur="bindTextAreaBlur" placeholder="请输入反馈" class="textarea"/>
+</view>
+
+<van-button color="linear-gradient(to right, #FF185F, #ff4e18)" class="sub_btn" block bind:click="sub_review_btn">提交反馈</van-button>

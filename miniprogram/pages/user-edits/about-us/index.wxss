@@ -1,0 +1,35 @@
+page{
+  background: #fff
+}
+.review_title{
+  margin-left: 30px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  font-size: 18px;
+  color: #3c3c3c;
+}
+.app_name{
+  font-size: 20px;
+}
+.app_version{
+  font-size: 13px;
+  margin-left: 10px;
+}
+.review_info{
+  margin-top: 8px;
+}
+.about_us_container{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #3c3c3c;
+}
+.contact_us{
+  margin-top: 20px;
+}
+.contact_info{
+  margin-top: 5px;
+}
+.right{
+  margin-top: 10px;
+}

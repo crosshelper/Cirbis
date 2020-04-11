@@ -1,13 +1,32 @@
 .next_btn{
-  background-color:rgba(255,255,255,0.95);
-  height: 42px;
-  margin-top: 25px;
-  border-radius: 5px;
-  border: 1px #FF5D5D solid;
+margin-top: 20px;
+margin-left: 10px;
+margin-right: 10px;
 }
 .next_title{
   font-size: 16px;
   text-align: center;
   padding-top: 11px;
   color: #FF5D5D;
+}
+.textarea{
+  height: 120px;
+  background: #fff;
+  border: 1px #fff solid;
+  width: 100%;
+  margin-top: 10px;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 15px;
+}
+.text{
+  margin-top: 20px;
+  margin-left: 12px;
+  margin-right: 20px;
+  color: #98999B;
+  font-size: 13px;
+}
+.text_title{
+  margin-left: 5px;
 }

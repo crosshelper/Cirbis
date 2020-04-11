@@ -5,6 +5,8 @@
     "van-cell-group": "@vant/weapp/cell-group/index",
     "van-button": "@vant/weapp/button/index",
     "van-row": "@vant/weapp/row",
-    "van-col": "@vant/weapp/col"
+    "van-col": "@vant/weapp/col",
+    "van-popup": "@vant/weapp/popup/index",
+    "van-area": "@vant/weapp/area/index"
   }
 }

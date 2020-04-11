@@ -1,0 +1,4 @@
+/* miniprogram/pages/user-edits/privcy/index.wxss */
+.privacy{
+  margin: 10px;
+}

@@ -1,28 +1,34 @@
 <van-cell-group title="详细信息" size="large">
   <van-cell title="需求类型" is-link value="日常生活" size="large" bindtap="select_problem_btn"/>
-  <van-cell title="当前位置" is-link value="洛杉矶" size="large" bindtap="select_location_btn"/>
+  <van-cell title="当前位置" is-link value="{{locationPlaceholder}}{{selectAddress[0].name}} {{selectAddress[1].name}} {{selectAddress[2].name}}" size="large" bindtap="select_location_btn"/>
   <van-cell title="是否紧急" is-link value="紧急" size="large" bindtap="select_emergency_btn"/>
 </van-cell-group>
 
-<van-cell-group title="描述需求" size="large">
-  <van-field
-    value="{{ message }}"
-    label="描述"
-    type="textarea"
-    placeholder="请描述你的需求"
-    border="{{ false }}"
-    size="large"
-    clearable
-  />
-</van-cell-group>
+<view class="text">
+  <view class="text_title">描述需求</view>
+  <textarea bindblur="bindTextAreaBlur" placeholder="请描述一下你的需求" class="textarea"/>
+</view>
 
-    <van-row>
-    <van-col span="20" offset="2">
-      <view class="next_btn" bindtap="match_btn">
-        <view class="next_title">
-          <span>查询</span>
-        </view>
-      </view>
-    </van-col>
-  </van-row>
+<van-row>
+  <view class="next_btn">
+    <van-button color="linear-gradient(to right, #FF185F, #ff4e18)" block bindtap="match_btn">下一步</van-button>
+  </view>
+</van-row>
+
+
+<van-popup
+  show="{{ show }}"
+  position="bottom"
+  custom-style="height: 35%;"
+  bind:close="onClose"
+>
+  <van-area
+  area-list="{{ areaList }}"
+  columns-placeholder="{{ ['请选择', '请选择', '请选择'] }}"
+  title="选择当前位置"
+  bind:change="location_select_change"
+  bind:cancel="location_select_cancel"
+  bind:confirm="location_select_confirm"
+/>
+</van-popup>
 

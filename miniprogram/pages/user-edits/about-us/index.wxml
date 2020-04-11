@@ -1,0 +1,14 @@
+<view class="about_us_container">
+  <view>
+    <span class="app_name">Cribis</span>
+    <span class="app_version">版本</span><span> 1.0.0</span>
+  </view>
+  <view class="review_info">
+    <view>Cribis是一款帮助跨境人群，在异国他乡遇到麻烦和问题。找到相应服务商和帮手的App。</view>
+    <view>我们的使命是帮助移民，留学生，跨境旅行者等更好，更方便的生活</view>
+  </view>
+  <view class="contact_us">联系我们:</view>
+  <view class="contact_info">电子邮箱: bchen_cycbis@outlook.com</view>
+  <view >微信号: cb_152877079</view>
+  <view class="right">©2020 - 2020 Crosshelper Inc. All Rights Reserved.</view>
+</view>

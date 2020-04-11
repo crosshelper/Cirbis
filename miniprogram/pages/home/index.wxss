@@ -2,19 +2,19 @@ page{
   background: #fff;
 }
 .scroll_box{
-width: 100%;
-height: 180rpx;
-overflow: hidden;
-background: #fff;
-white-space: nowrap;
-margin-top: 10px;
+  width: 100%;
+  height: 180rpx;
+  overflow: hidden;
+  background: #fff;
+  white-space: nowrap;
+  margin-top: 10px;
 }
 .recom_scroll_box{
-width: 100%;
-height: 210rpx;
-overflow: hidden;
-background: #fff;
-white-space: nowrap;
+  width: 100%;
+  height: 210rpx;
+  overflow: hidden;
+  background: #fff;
+  white-space: nowrap;
 }
 .scroll_box scroll-view{
   height: 100%;
@@ -22,15 +22,15 @@ white-space: nowrap;
   overflow:hidden;
 }
 .item_list{
-height: 110px;
-margin-right: 23rpx;
-display: inline-block;
-margin-left: 10px;
+  height: 110px;
+  margin-right: 23rpx;
+  display: inline-block;
+  margin-left: 10px;
 }
 .search_bar{
   text-align: center;
   background-color: #EBEDF5;
-  height: 40px;
+  height: 35px;
   display: flex;
   align-items: center;
   justify-content: center;

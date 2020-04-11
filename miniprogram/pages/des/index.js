@@ -1,11 +1,16 @@
 // miniprogram/pages/des/index.js
+const locations = require('../../utils/locations.js');
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    show: false,
+    selectAddress:{},
+    locationPlaceholder:"请选择地址",
+    areaList:{}
   },
 
   match_btn(){
@@ -26,6 +31,25 @@ Page({
     })
   },
 
+  location_select_change(){
+
+  },
+
+  location_select_cancel(e){
+    this.setData({
+      show: false
+    })
+  },
+
+  location_select_confirm(e){
+    console.log(e.detail.values)
+    this.setData({
+      selectAddress: e.detail.values,
+      locationPlaceholder:"",
+      show: false
+    })
+  },
+
   select_emergency_btn() {
     wx.navigateTo({
       url: '../user-edits/emergency/index',
@@ -36,7 +60,9 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    this.setData({
+      areaList: locations.default
+    })
   },
 
   /**

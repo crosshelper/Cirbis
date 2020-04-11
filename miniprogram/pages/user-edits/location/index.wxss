@@ -1,1 +1,8 @@
 /* miniprogram/pages/user-edits/location/index.wxss */
+.next_btn{
+  margin-top: 20px;
+}
+.location_container{
+  margin-left: 10px;
+  margin-right: 10px;
+}

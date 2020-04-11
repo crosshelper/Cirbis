@@ -8,6 +8,70 @@ Page({
 
   },
 
+  name_edit_btn(){
+    wx.navigateTo({
+      url: '../user-edits/name/index',
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
+    })
+  },
+
+  phone_edit_btn(){
+    wx.navigateTo({
+      url: '../user-edits/phone/index',
+      success: function (res) { },
+      fail: function (res) { },
+      complete: function (res) { },
+    })
+  },
+
+  city_edit_btn() {
+    wx.navigateTo({
+      url: '../user-edits/location/index',
+    })
+  },
+
+  switch_position_btn() {
+    wx.navigateTo({
+      url: '../helper/helper-signup/index',
+      success: function (res) { },
+      fail: function (res) { },
+      complete: function (res) { },
+    })
+  },
+
+  privacy_btn(){
+    wx.navigateTo({
+      url: '../user-edits/privacy/index',
+      success: function (res) { },
+      fail: function (res) { },
+      complete: function (res) { },
+    })
+  },
+
+  feedback_btn(){
+    wx.navigateTo({
+      url: '../user-edits/feedback/index',
+      success: function (res) { },
+      fail: function (res) { },
+      complete: function (res) { },
+    })
+  },
+
+  about_us_btn(){
+    wx.navigateTo({
+      url: '../user-edits/about-us/index',
+      success: function (res) { },
+      fail: function (res) { },
+      complete: function (res) { },
+    })
+  },
+
+  sign_out_btn(){
+    console.log("已经登出")
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */

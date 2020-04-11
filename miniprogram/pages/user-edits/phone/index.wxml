@@ -1,0 +1,13 @@
+<view class="name_container">
+  <van-cell-group>
+    <van-field
+      value="{{ value }}"
+      placeholder="请输入电话"
+      border="{{ false }}"
+      bind:change="onChange"
+    />
+  </van-cell-group>
+  <view class="save_btn">
+    <van-button color="linear-gradient(to right, #FF185F, #ff4e18)" bindtap="save_btn" block>保存电话</van-button>
+  </view>
+</view>

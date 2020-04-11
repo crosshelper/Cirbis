@@ -10,7 +10,14 @@
     "pages/review-writing/index",
     "pages/user-edits/emergency/index",
     "pages/user-edits/location/index",
-    "pages/user-edits/problem-type/index"
+    "pages/user-edits/problem-type/index",
+    "pages/user-edits/about-us/index",
+    "pages/user-edits/city/index",
+    "pages/user-edits/feedback/index",
+    "pages/user-edits/name/index",
+    "pages/user-edits/phone/index",
+    "pages/user-edits/privacy/index",
+    "pages/helper/helper-signup/index"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -52,5 +59,11 @@
         "selectedIconPath": "images/profile-actived.png"
       }
     ]
-  }
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "sitemapLocation": "sitemap50.json"
 }

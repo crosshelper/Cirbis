@@ -56,10 +56,10 @@
 <view class="button_section">
   <van-row class="button_container">
      <van-col span="11">
-      <view class="payment_button">预订付款</view>
+      <van-button color="#ff4e18" plain block bindtap="match_btn">预付款</van-button>
     </van-col>
     <van-col span="11" offset="2">
-      <view class="call_button" bindtap="call_btn">拨打电话</view>
+      <van-button color="linear-gradient(to right, #FF185F, #ff4e18)" block bindtap="call_btn">拨打电话</van-button>
     </van-col>
   </van-row>
 </view>
