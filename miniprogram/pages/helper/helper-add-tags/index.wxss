@@ -1,0 +1,8 @@
+/* miniprogram/pages/helper/helper-add-tags/index.wxss */
+page{
+  background-color: #fff
+}
+.colors{
+  background-color: blue;
+  font-size: 10px;
+}

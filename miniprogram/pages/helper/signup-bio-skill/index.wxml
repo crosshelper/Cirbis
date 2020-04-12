@@ -6,16 +6,14 @@
 <view>
   <view class="skill_title">技能标签</view>
   <view class="skill_tags">
-    <van-tag type="primary" size="large" class="tags">修车</van-tag>
-    <van-tag type="success" size="large" class="tags">修水管</van-tag>
-    <van-tag type="danger" size="large" class="tags">接机</van-tag>
+    <van-tag type="primary" size="large" class="tags" closeable  bind:click="onClose">修车</van-tag>
+    <van-tag type="success" size="large" class="tags" closeable>修水管</van-tag>
+    <van-tag type="danger" size="large" class="tags" closeable>接机</van-tag>
   </view>
 </view>
-
-      <view class="delete-btn" bindtap="delete_btn">
-        <view class="delete-title">
-          <span>添加技能标签</span>
-        </view>
-      </view>
-
-<van-button color="linear-gradient(to right, #FF185F, #ff4e18)" class="sub_btn" block bind:click="sub_review_btn">下一步</van-button>
+<view class="add_tags_btn" bindtap="add_tags_btn">
+  <view class="add_tags_title">
+    <span>添加技能标签</span>
+  </view>
+</view>
+<van-button color="linear-gradient(to right, #FF185F, #ff4e18)" class="next_btn" block bind:click="next_btn">下一步</van-button>

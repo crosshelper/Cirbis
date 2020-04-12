@@ -30,7 +30,7 @@
 .tags{
   margin-right: 5px;
 }
-.delete-btn{
+.add_tags_btn{
   background-color:rgba(255,255,255,0.95);
   height: 35px;
   border: 0.5px #8E8F91 dashed;
@@ -39,13 +39,13 @@
   margin-left: 10px;
   margin-right: 10px;
 }
-.delete-title{
+.add_tags_title{
   font-size: 14px;
   margin-top: 8px;
   text-align: center;
   color: #8E8F91;
 }
-.sub_btn{
+.next_btn{
   margin-top: 25px;
   margin-left: 10px;
   margin-right: 10px;

@@ -19,7 +19,9 @@
     "pages/user-edits/privacy/index",
     "pages/helper/helper-signup/index",
     "pages/helper/signup-basic-info/index",
-    "pages/helper/signup-bio-skill/index"
+    "pages/helper/signup-bio-skill/index",
+    "pages/helper/helper-add-tags/index",
+    "pages/helper/signup-id/index"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

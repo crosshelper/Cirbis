@@ -1,34 +1,44 @@
-// miniprogram/pages/helper/signup-bio-skill/index.js
+// miniprogram/pages/helper/helper-add-tags/index.js
+const tags = require('../../../utils/tags.js');
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+      mainActiveIndex: 0,
+      activeId: [],
+      max: 3,
+      items:[]
   },
 
-  add_tags_btn(){
-    wx.navigateTo({
-      url: '../helper-add-tags/index',
-    })
+  onClickNav({ detail = {} }) {
+    this.setData({
+      mainActiveIndex: detail.index || 0
+    });
   },
 
-  onClose(e){
-    console.log(2)
+  onClickItem({ detail = {} }) {
+    const { activeId } = this.data;
+
+    const index = activeId.indexOf(detail.id);
+    if (index > -1) {
+      activeId.splice(index, 1);
+    } else {
+      activeId.push(detail.id);
+    }
+
+    this.setData({ activeId });
   },
 
-  next_btn() {
-    wx.navigateTo({
-      url: '../signup-id/index',
-    })
-  },
-  
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    this.setData({
+      items:tags.default.items
+    })
   },
 
   /**
