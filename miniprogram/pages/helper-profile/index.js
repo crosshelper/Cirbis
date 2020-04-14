@@ -9,7 +9,6 @@ Page({
   },
 
   review_write_btn(){
-    console.log(2)
     wx.navigateTo({
       url: '../review-writing/index',
     })
