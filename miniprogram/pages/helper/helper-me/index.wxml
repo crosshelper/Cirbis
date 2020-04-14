@@ -1,0 +1,38 @@
+<view>
+  <van-row>
+    <view class="topSpace"></view>
+      <van-col span="4" offset="10">
+        <view bindtap="uploadImage">
+          <van-image
+            round
+            fit="cover"
+            width="4rem"
+            height="4rem"
+            class="autImage"
+            src="cloud://cirbis-db.6369-cirbis-db-1301779952/self.jpg"
+          />
+          <view class="name">
+            <text class="name">更换头像</text>
+          </view>
+        </view>
+      </van-col>
+  </van-row>
+  <van-cell-group title="基础信息">
+    <van-cell title="姓名" is-link value="陈嶓" bindtap="name_edit_btn"/>
+    <van-cell title="联系电话" is-link value="15715158008" bindtap="phone_edit_btn"/>
+    <van-cell title="服务地址" is-link value="南京" bindtap="city_edit_btn"/>
+    <van-cell title="认证信息" is-link value="以认证" bindtap="auth_btn"/>
+  </van-cell-group>
+  <van-cell-group title="帮手信息">
+    <van-cell title="自我介绍" is-link bindtap="bio_btn"/>
+    <van-cell title="技能标签" is-link bindtap="skill_btn"/>
+    <van-cell title="提现银行信息" is-link bindtap="transfor_bank_btn"/>
+    <van-cell title="切换回用户页面" is-link bindtap="switch_position_btn"/>
+  </van-cell-group>
+    <van-cell-group title="更多">
+    <van-cell title="隐私与协议" is-link bindtap="privacy_btn"/>
+    <van-cell title="反馈" is-link bindtap="feedback_btn"/>
+    <van-cell title="关于我们" is-link bindtap="about_us_btn"/>
+    <van-cell title="登出" is-link title-class="sign_out_title" bindtap="sign_out_btn"/>
+  </van-cell-group>
+</view>

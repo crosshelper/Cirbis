@@ -1,0 +1,26 @@
+<view>
+  <van-row>
+    <van-col span="22" offset="1">
+      <view class="bg-color">
+        <view class="main-title">
+          <span>{{name}}</span>
+          <span>**************{{ id }}</span>
+        </view>
+        <van-divider dashed />
+        <view class="balence">已认证</view>
+      </view>
+    </van-col>
+  </van-row>
+
+  <van-row>
+    <van-col span="22" offset="1">
+      <view class="notes">(说明: Id仅用于身份验证，为了保护用户权益和安全)</view>
+    </van-col>
+  </van-row>
+
+  <van-row class="next_btn">
+    <van-col span="22" offset="1">
+      <van-button color="linear-gradient(to right, #FF185F, #ff4e18)" block bindtap="complete_btn">完成</van-button>
+    </van-col>
+  </van-row>
+</view>

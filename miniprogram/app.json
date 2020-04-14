@@ -11,17 +11,24 @@
     "pages/user-edits/emergency/index",
     "pages/user-edits/location/index",
     "pages/user-edits/problem-type/index",
-    "pages/user-edits/about-us/index",
+    "pages/about-us/index",
     "pages/user-edits/city/index",
-    "pages/user-edits/feedback/index",
+    "pages/feedback/index",
     "pages/user-edits/name/index",
     "pages/user-edits/phone/index",
-    "pages/user-edits/privacy/index",
+    "pages/privacy/index",
     "pages/helper/helper-signup/index",
     "pages/helper/signup-basic-info/index",
     "pages/helper/signup-bio-skill/index",
     "pages/helper/helper-add-tags/index",
-    "pages/helper/signup-id/index"
+    "pages/helper/signup-id/index",
+    "pages/helper/helper-home-tabbar/index",
+    "pages/helper/helper-me/index",
+    "pages/helper/helper-home/index",
+    "pages/helper/helper-auth/index",
+    "pages/helper/helper-bio/index",
+    "pages/helper/helper-skills/index",
+    "pages/helper/helper-transfor-bank/index"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -32,7 +39,7 @@
   },
   "tabBar": {
     "color": "#838383",
-    "selectedColor": "#000",
+    "selectedColor": "#ff4e18",
     "list": [
       {
         "current": 0,

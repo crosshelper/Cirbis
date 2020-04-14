@@ -8,3 +8,5 @@
   bind:click-item="onClickItem"
 >
 </van-tree-select>
+
+<van-button icon="edit" color="linear-gradient(to right, #FF185F, #ff4e18)" class="next_btn" size="large" round  bind:click="save_btn">保存</van-button>

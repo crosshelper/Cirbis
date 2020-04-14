@@ -1,29 +1,13 @@
-// miniprogram/pages/helper/signup-bio-skill/index.js
+// miniprogram/pages/helper/helper-transfor-bank/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    selectSkills:[]
+
   },
 
-  add_tags_btn(){
-    wx.navigateTo({
-      url: '../helper-add-tags/index',
-    })
-  },
-
-  onClose(e){
-    console.log(2)
-  },
-
-  next_btn() {
-    wx.navigateTo({
-      url: '../signup-id/index',
-    })
-  },
-  
   /**
    * 生命周期函数--监听页面加载
    */

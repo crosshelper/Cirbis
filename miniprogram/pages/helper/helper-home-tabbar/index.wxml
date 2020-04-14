@@ -1,0 +1,8 @@
+<view class='main-wrapper' style='margin-bottom:{{tabbarHeight}}px;'>
+  <page1 wx:if='{{activeIndex == 0}}' onShow="{{tabbar[0].selected}}"></page1>
+  <page2 wx:if='{{activeIndex == 1}}' onShow="{{tabbar[1].selected}}"></page2>
+</view>
+<van-tabbar active="{{ activeIndex }}" bind:change="onChange" active-color="#ff4e18">
+  <van-tabbar-item wx:for="{{tabbar}}" wx:key="index" icon="{{item.iconPath}}" info="{{item.tips}}">{{item.name}}
+  </van-tabbar-item>
+</van-tabbar>

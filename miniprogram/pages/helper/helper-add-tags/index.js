@@ -10,7 +10,21 @@ Page({
       mainActiveIndex: 0,
       activeId: [],
       max: 3,
-      items:[]
+      items:[],
+      selectSkills:[]
+  },
+
+  save_btn(){
+    var pages = getCurrentPages();
+    var currPage = pages[pages.length - 1];   //当前页面
+    var prevPage = pages[pages.length - 2];  //上一个页面
+    var selectSkills = this.data.selectSkills;
+    prevPage.setData({
+      selectTag: selectSkills
+    })
+    wx.navigateBack({
+      delta: 1,
+    })
   },
 
   onClickNav({ detail = {} }) {
@@ -28,8 +42,9 @@ Page({
     } else {
       activeId.push(detail.id);
     }
-
-    this.setData({ activeId });
+    this.setData({ 
+      activeId
+      });
   },
 
   /**

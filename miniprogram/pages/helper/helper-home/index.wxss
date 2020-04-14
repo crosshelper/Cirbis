@@ -1,0 +1,44 @@
+/* miniprogram/pages/TodoDetail/index.wxss */
+page{
+ height:100%;
+ background-color: #fff
+}
+.bg-color{
+  background-color:rgba(255,255,255,0.95);
+  height: 138px;
+  margin-top: 30px;
+  border-radius: 8px;
+  border: 1px #EBEDF0 solid;
+}
+.main-title{
+  padding-top: 20px;
+  font-size: 14px;
+  text-align: center;
+  color: #69463A;
+}
+.balence{
+  font-size: 35px;
+  text-align: center;
+  color: #ff4e18;
+}
+.transfer_bank_btn{
+  margin-top: 20px;
+}
+.statement{
+  margin-top: 10px;
+  height: 200px;
+  background-color: #fff;
+}
+.history{
+  margin-top: 20px;
+  color: #919191;
+  margin-left: 15px;
+  font-weight: 450;
+  font-size: 13px;
+}
+.transforColor{
+  color: red;
+}
+.earnColor{
+  color: #55B753
+}

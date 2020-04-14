@@ -1,0 +1,21 @@
+/* miniprogram/pages/helper/helper-bio/index.wxss */
+.textarea{
+  height: 120px;
+  background: #fff;
+  border: 1px #F5F6FA solid;
+  width: 100%;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 5px;
+}
+.text{
+  margin-top: 3px;
+}
+.bio_title{
+  margin-left: 6px;
+  font-size: 14px;
+  color: #8E8F91;
+}
+.complete_btn{
+  margin-top: 20px;
+}

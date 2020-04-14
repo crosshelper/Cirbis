@@ -1,2 +1,16 @@
-<!--miniprogram/pages/helper/signup-id/index.wxml-->
-<text>miniprogram/pages/helper/signup-id/index.wxml</text>
+<van-cell-group title="身份验证">
+  <van-field
+    value="{{ username }}"
+    clearable
+    label="身份证"
+    icon="question-o"
+    placeholder="请输入身份证号"
+    bind:click-icon="onClickIcon"
+  />
+</van-cell-group>
+
+<view class="notes">(说明: Id仅用于身份验证，为了保护用户权益和安全)</view>
+
+<view class="next_btn">
+  <van-button color="linear-gradient(to right, #FF185F, #ff4e18)" block bindtap="next_btn">完成</van-button>
+</view>

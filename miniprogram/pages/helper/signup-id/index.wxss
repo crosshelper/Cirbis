@@ -1,1 +1,13 @@
-/* miniprogram/pages/helper/signup-id/index.wxss */
+/* miniprogram/pages/helper/signup-basic-info/index.wxss */
+.next_btn{
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.notes{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 12px;
+  color: #98999B;
+  margin-top: 5px;
+}

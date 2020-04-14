@@ -1,0 +1,14 @@
+  <van-row class="next_btn">
+    <van-col span="22" offset="1">
+      <view class="bio_title">自我介绍</view>
+      <view class="text">
+        <textarea bindblur="bindTextAreaBlur" placeholder="请想客户介绍一下自己或者公司吧" class="textarea"/>
+      </view>
+    </van-col>
+  </van-row>
+
+  <van-row class="complete_btn">
+    <van-col span="22" offset="1">
+      <van-button color="linear-gradient(to right, #FF185F, #ff4e18)" block bindtap="complete_btn">保存</van-button>
+    </van-col>
+  </van-row>

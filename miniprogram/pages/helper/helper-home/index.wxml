@@ -1,0 +1,38 @@
+<view>
+  <van-row>
+    <van-col span="18" offset="3">
+      <view class="bg-color">
+        <view class="main-title">
+          <span>账户金额（人民币）</span>
+        </view>
+        <van-divider dashed />
+        <view class="balence">{{balence}}</view>
+      </view>
+    </van-col>
+  </van-row>
+
+<view class="transfer_bank_btn">
+  <van-row >
+    <van-col span="18" offset="3">
+      <van-button color="linear-gradient(to right, #FF185F, #ff4e18)" block bindtap="transfer_bank_btn">提现</van-button>
+    </van-col>
+  </van-row>
+</view>
+
+  <view class="history">历史记录</view>
+  <scroll-view class="statement" scroll-y="true" style='height:{{scrollHeight}}px'>
+    <van-cell title="提现（9870）" value="￥299" label="2020年5月1日"/>
+    <van-cell title="收入（陈嶓）" value="￥799" label="2020年5月1日"/>
+    <van-cell title="收入（Liang）" value="￥309" label="2020年5月1日"/>
+    <van-cell title="收入（陈嶓）" value="￥234" label="2020年5月1日"/>
+    <van-cell title="提现（9870）" value="￥299" label="2020年5月1日"/>
+    <van-cell title="收入（陈嶓）" value="￥799" label="2020年5月1日"/>
+    <van-cell title="提现（9870）" value="￥299" label="2020年5月1日"/>
+    <van-cell title="收入（陈嶓）" value="￥799" label="2020年5月1日"/>
+    <van-cell title="提现（9870）" value="￥299" label="2020年5月1日"/>
+    <van-cell title="收入（陈嶓）" value="￥799" label="2020年5月1日"/>
+    <van-cell title="提现（9870）" value="￥299" label="2020年5月1日"/>
+    <van-cell title="收入（陈嶓）" value="￥799" label="2020年5月1日"/>
+  </scroll-view>
+
+</view>

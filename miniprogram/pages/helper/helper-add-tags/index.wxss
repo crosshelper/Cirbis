@@ -2,7 +2,10 @@
 page{
   background-color: #fff
 }
-.colors{
-  background-color: blue;
-  font-size: 10px;
+.next_btn{
+  bottom: 30px;
+  display: flex;
+  position: fixed;
+  right: 30px;
+  width: 85px;
 }

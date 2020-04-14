@@ -1,0 +1,31 @@
+/* miniprogram/pages/helper/signup-basic-info/index.wxss */
+.next_btn{
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.notes{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 12px;
+  color: #98999B;
+  margin-top: 5px;
+}
+.bg-color{
+  background-color:rgba(255,255,255,0.95);
+  height: 138px;
+  margin-top: 30px;
+  border-radius: 8px;
+  border: 1px #EBEDF0 solid;
+}
+.main-title{
+  padding-top: 20px;
+  font-size: 14px;
+  text-align: center;
+  color: #69463A;
+}
+.balence{
+  font-size: 35px;
+  text-align: center;
+  color: #5ABE51;
+}

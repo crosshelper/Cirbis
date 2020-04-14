@@ -5,7 +5,16 @@ Page({
    * 页面的初始数据
    */
   data: {
+    show: false,
+    selectAddress: {},
+    locationPlaceholder: "请选择地址",
+    areaList: {}
+  },
 
+  next_btn() {
+    wx.reLaunch({
+      url: '../helper-home-tabbar/index',
+    })
   },
 
   /**
