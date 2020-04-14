@@ -11,7 +11,7 @@ page{
 }
 .recom_scroll_box{
   width: 100%;
-  height: 210rpx;
+  height: 220rpx;
   overflow: hidden;
   background: #fff;
   white-space: nowrap;
@@ -49,6 +49,7 @@ page{
 .recom_title{
   margin-left: 15px;
   font-size: 20px;
-  margin-top: 10px;
+  margin-top: 15px;
+  margin-bottom: 5px;
   color: #3C3C3C;
 }
