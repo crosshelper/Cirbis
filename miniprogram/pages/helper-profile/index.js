@@ -5,10 +5,15 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    name:""
   },
 
   review_write_btn(){
+
+    this.setData({
+      name: "陈嶓"
+    })
+
     wx.navigateTo({
       url: '../review-writing/index',
     })
