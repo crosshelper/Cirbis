@@ -1,27 +1,11 @@
-// miniprogram/pages/helper-profile/index.js
+// miniprogram/pages/signin/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    name:""
-  },
 
-  review_write_btn(){
-
-    this.setData({
-      name: "陈嶓"
-    })
-    wx.navigateTo({
-      url: '../signin/index',
-    })
-  },
-
-  call_btn(){
-    wx.makePhoneCall({
-      phoneNumber: "10086"
-    })
   },
 
   /**

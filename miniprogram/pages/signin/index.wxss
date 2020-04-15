@@ -1,0 +1,58 @@
+/* miniprogram/pages/helper/helper-signup/index.wxss */
+page{
+  background-color: #fff
+}
+.signup_container{
+  display:flex;
+  justify-content: center;
+  margin-top: 45px;
+}
+.logo{
+  width: 120px;
+  height: 50px;
+}
+.signin_input{
+  margin-top: 45px;
+}
+.signin_title{
+  margin-left: 12px;
+  margin-bottom: 10px;
+  color: #3c3c3c;
+  font-size: 18px;
+}
+.signin_btn{
+  margin-top: 22px;
+}
+.signup_notice{
+  margin-top: 8px;
+  text-align: center;
+  color: #C7C7CC;
+  font-size: 12px;
+}
+.terms{
+  text-align: center;
+  margin-top: 10px;
+  bottom: 10px;
+  width: 400px;
+  font-size: 12px;
+  color: #3c3c3c;
+}
+.term_notice{
+  width: 80%;
+  margin-left: 10%;
+  position: fixed;
+  margin-top: 8px;
+  text-align: center;
+  color: #3c3c3c;
+  font-size: 13px;
+  bottom:20px;
+}
+.center{
+  justify-content: center
+}
+.user_term{
+  color: #ff4e18
+}
+.privacy_term{
+  color: #ff4e18
+}
