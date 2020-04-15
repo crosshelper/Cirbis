@@ -1,7 +1,7 @@
 <view class="topBar">搜索完成, 一共找到2个帮手</view>
-<view class="containers" bindtap="select_helper_btn">
-    <van-row>
-      <van-col span="4" data-id="{{aOpenId}}" bindtap="autProfile_btn">
+<view class="containers">
+    <van-row bindtap="select_helper_btn">
+      <van-col span="4" data-id="{{aOpenId}}">
         <van-image
           round
           style="margin-left:5px; "
@@ -10,15 +10,18 @@
           height="3rem"
           src="cloud://cirbis-db.6369-cirbis-db-1301779952/self.jpg"/>
       </van-col>
-      <van-col span="13" class="textName" data-id="{{aOpenId}}" bindtap="autProfile_btn">
-        <view class="name">陈嶓</view>
+      <van-col span="13" class="textName" data-id="{{aOpenId}}">
+        <view class="name">
+          <span>陈嶓</span>
+          <van-icon name="medal-o" class="auth" catchtap="auth_show_btn"/>
+        </view>
         <view class="tags">
           <van-tag type="danger" size="medium" plain class="tags" >接机</van-tag>
           <van-tag type="primary" size="medium" plain class="tags" >修马桶</van-tag>
           <van-tag type="success" size="medium" plain class="tags" >日常生活</van-tag>
         </view>
       </van-col>
-      <van-col span="7" class="location">
+      <van-col span="7" class="location" >
           <span class="location">洛杉矶</span>
       </van-col>
     </van-row>

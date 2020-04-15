@@ -1,4 +1,4 @@
-<van-cell-group title="身份验证">
+<van-cell-group title="实名验证(选填)">
   <van-field
     value="{{ username }}"
     clearable
@@ -9,7 +9,7 @@
   />
 </van-cell-group>
 
-<view class="notes">(说明: Id仅用于身份验证，为了保护用户权益和安全)</view>
+<view class="notes">(说明: 实名验证是为了保护用户权益和安全。如果完成实名认证, 认证标识将会在App上展现给客户。)</view>
 
 <view class="next_btn">
   <van-button color="linear-gradient(to right, #FF185F, #ff4e18)" block bindtap="next_btn">完成</van-button>

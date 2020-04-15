@@ -5,6 +5,7 @@
     "van-image": "@vant/weapp/image/index",
     "van-divider": "@vant/weapp/divider/index",
     "van-rate": "@vant/weapp/rate/index",
-    "van-tag": "@vant/weapp/tag/index"
+    "van-tag": "@vant/weapp/tag/index",
+    "van-icon": "@vant/weapp/icon/index"
   }
 }

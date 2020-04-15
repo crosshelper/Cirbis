@@ -42,3 +42,6 @@ page{
 .earnColor{
   color: #55B753
 }
+.van-cell-text{
+  margin-right: 10px;
+}

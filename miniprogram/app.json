@@ -28,7 +28,8 @@
     "pages/helper/helper-auth/index",
     "pages/helper/helper-bio/index",
     "pages/helper/helper-skills/index",
-    "pages/helper/helper-transfor-bank/index"
+    "pages/helper/helper-transfor-bank/index",
+    "pages/helper/helper-info/index"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

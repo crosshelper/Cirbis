@@ -5,14 +5,21 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    locationCity: "南京"
   },
 
   select_tag_btn(){
     wx.navigateTo({
-      url: '../des/index',
+      url: '../result/index',
     })
   },
+
+  select_location_btn(){
+    wx.navigateTo({
+      url: '../user-edits/location/index',
+    })
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */

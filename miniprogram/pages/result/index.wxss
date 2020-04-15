@@ -56,3 +56,8 @@ page{
   color: #3c3c3c;
   background: #F6F6F6;
 }
+.auth{
+  font-size: 14px;
+  color: #ff4e18;
+  margin-left: 5px;
+}

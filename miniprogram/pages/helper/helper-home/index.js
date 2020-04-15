@@ -27,7 +27,7 @@ Component({
       if (show) {
         console.log('page1 show')
         let screenHeight = wx.getSystemInfoSync().windowHeight;
-        let scrollHeight = screenHeight - 340;
+        let scrollHeight = screenHeight - 270;
         this.setData({
           scrollHeight: scrollHeight
         })

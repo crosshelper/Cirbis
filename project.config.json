@@ -58,8 +58,8 @@
 				},
 				{
 					"id": 1,
-					"name": "pages/helper/helper-home-tabbar/index",
-					"pathName": "pages/helper/helper-home-tabbar/index",
+					"name": "pages/result/index",
+					"pathName": "pages/result/index",
 					"query": "",
 					"scene": null
 				}

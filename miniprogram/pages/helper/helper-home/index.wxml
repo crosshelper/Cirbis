@@ -3,14 +3,14 @@
     <van-col span="18" offset="3">
       <view class="bg-color">
         <view class="main-title">
-          <span>账户金额（人民币）</span>
+          <span>总共赚取（人民币元）</span>
         </view>
         <van-divider dashed />
         <view class="balence">{{balence}}</view>
       </view>
     </van-col>
   </van-row>
-
+<!-->
 <view class="transfer_bank_btn">
   <van-row >
     <van-col span="18" offset="3">
@@ -18,21 +18,68 @@
     </van-col>
   </van-row>
 </view>
-
+<-->
   <view class="history">历史记录</view>
   <scroll-view class="statement" scroll-y="true" style='height:{{scrollHeight}}px'>
-    <van-cell title="提现（9870）" value="￥299" label="2020年5月1日"/>
-    <van-cell title="收入（陈嶓）" value="￥799" label="2020年5月1日"/>
-    <van-cell title="收入（Liang）" value="￥309" label="2020年5月1日"/>
-    <van-cell title="收入（陈嶓）" value="￥234" label="2020年5月1日"/>
-    <van-cell title="提现（9870）" value="￥299" label="2020年5月1日"/>
-    <van-cell title="收入（陈嶓）" value="￥799" label="2020年5月1日"/>
-    <van-cell title="提现（9870）" value="￥299" label="2020年5月1日"/>
-    <van-cell title="收入（陈嶓）" value="￥799" label="2020年5月1日"/>
-    <van-cell title="提现（9870）" value="￥299" label="2020年5月1日"/>
-    <van-cell title="收入（陈嶓）" value="￥799" label="2020年5月1日"/>
-    <van-cell title="提现（9870）" value="￥299" label="2020年5月1日"/>
-    <van-cell title="收入（陈嶓）" value="￥799" label="2020年5月1日"/>
+    <van-cell value="￥1309" label="2020年5月1日">
+      <view slot="title">
+        <span class="van-cell-text">Liang</span>
+        <van-tag type="danger">日常生活</van-tag>
+      </view>
+    </van-cell>
+    <van-cell value="￥309" label="2020年5月1日">
+      <view slot="title">
+        <span class="van-cell-text">希拉里</span>
+        <van-tag type="primary">接机</van-tag>
+      </view>
+    </van-cell>
+        <van-cell value="￥309" label="2020年5月1日">
+      <view slot="title">
+        <span class="van-cell-text">拜登</span>
+        <van-tag type="success">修马桶</van-tag>
+      </view>
+    </van-cell>
+        <van-cell value="￥903" label="2020年5月1日">
+      <view slot="title">
+        <span class="van-cell-text">Liang</span>
+        <van-tag type="danger">日常生活</van-tag>
+      </view>
+    </van-cell>
+    <van-cell value="￥455" label="2020年5月1日">
+      <view slot="title">
+        <span class="van-cell-text">特朗普</span>
+        <van-tag type="danger">日常生活</van-tag>
+      </view>
+    </van-cell>
+    <van-cell value="￥309" label="2020年5月1日">
+      <view slot="title">
+        <span class="van-cell-text">陈嶓</span>
+        <van-tag type="success">接机</van-tag>
+      </view>
+    </van-cell>
+    <van-cell value="￥23" label="2020年5月1日">
+      <view slot="title">
+        <span class="van-cell-text">Liang</span>
+        <van-tag type="primary">接机</van-tag>
+      </view>
+    </van-cell>
+    <van-cell value="￥309" label="2020年5月1日">
+      <view slot="title">
+        <span class="van-cell-text">Liang</span>
+        <van-tag type="primary">接机</van-tag>
+      </view>
+    </van-cell>
+    <van-cell value="￥309" label="2020年5月1日">
+      <view slot="title">
+        <span class="van-cell-text">奥巴马</span>
+        <van-tag type="danger">接机</van-tag>
+      </view>
+    </van-cell>
+    <van-cell value="￥309" label="2020年5月1日">
+      <view slot="title">
+        <span class="van-cell-text">华盛顿</span>
+        <van-tag type="primary">接机</van-tag>
+      </view>
+    </van-cell>
   </scroll-view>
-
 </view>

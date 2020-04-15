@@ -1,4 +1,4 @@
-// miniprogram/pages/result/index.js
+// miniprogram/pages/helper/helper-info/index.js
 Page({
 
   /**
@@ -6,19 +6,6 @@ Page({
    */
   data: {
 
-  },
-
-  select_helper_btn(){
-    wx.navigateTo({
-      url: '../helper-profile/index',
-    })
-  },
-
-  auth_show_btn(){
-    wx.showToast({
-      title: '实名认证商家',
-      icon:'none'
-    })
   },
 
   /**

@@ -1,7 +1,10 @@
 <view>
 <!-->搜索<-->
 <van-row>
-  <van-col span="22" offset="1">
+  <van-col span="6" bindtap="select_location_btn">
+    <view class="location_bar"><van-icon name="arrow-down" size="15px;"/><span class="search_title">{{locationCity}}</span></view>
+  </van-col>
+  <van-col span="17">
     <view class="search_bar"><van-icon name="search" size="20px"/><span class="search_title">点击搜索更多</span></view>
   </van-col>
 </van-row>
